@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Qorxu Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu">
+    <h1>🎮 Qaydalar</h1>
+    <p>5 kartı yığ → qapıya qaç</p>
+    <p>5 raund var</p>
+    <p>Düşməndən qaç!</p>
+    <p>ENTER bas başla</p>
+</div>
+
+<canvas id="game" width="600" height="600"></canvas>
+
+<div id="gameover" style="display:none;">
+    <h1>💀 GAME OVER</h1>
+    <p>P bas restart üçün</p>
+</div>
+
+<img id="screamer" src="scare.png">
+
+<audio id="scareSound" src="scare.mp3"></audio>
+<audio id="bgSound" src="bg.mp3" loop></audio>
+
+<script src="game.js"></script>
+</body>
+</html>
