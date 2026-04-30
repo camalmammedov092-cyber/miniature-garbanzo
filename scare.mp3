@@ -1,0 +1,2 @@
+<audio id="scareSound" src="scare.mp3"></audio>
+scareSound.play();
